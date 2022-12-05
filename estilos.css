@@ -1,5 +1,23 @@
-#div1{
+#map{
     border: 1px salmon solid;
-    
+    font-size: 50px;
+    width: 50%;
+    height: 30%;
+    margin: 0 auto;
+    text-align: center;
 
+}
+
+#div2{
+    border: 1px salmon solid;
+    font-size: 50px;
+    width: 50%;
+    height: 30%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+body{
+    background-color: gray;
 }
