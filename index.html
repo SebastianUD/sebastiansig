@@ -20,11 +20,11 @@
 
 <div id="div2">
     <form>
-        <label>Nombre </label><input type="text"
+        <br><label>Nombre </label><input type="text"
         textaera name="" id="" cols="30" rows="10" class="formControl"><br>
-        <label>Ubicacion </label><input type="text"/><br>
-        <label>Descripcion </label><input type="text"/><br>
-        <button>Aceptar</button>
+        <br><label>Ubicacion </label><input type="text"/><br>
+        <br><label>Descripcion </label><input type="text"/><br>
+        <br><button>Aceptar</button>
 
     </form>
 </div>
@@ -36,6 +36,11 @@
     maxZoom: 15,
 }).addTo(map);
 
+var polygon = L.polygon([
+    [4.717573, -74.054014],
+    [4.715818, -74.054554],
+    [4.716883, -74.052517]
+]).addTo(map);
 var marker = L.marker([4.717573, -74.054014]).addTo(map);
 var marker2 = L.marker([4.715818, -74.054554]).addTo(map);
 </script>
